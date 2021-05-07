@@ -4,13 +4,13 @@ babel 遍历 ast 是采用深度优先遍历，大白话就是，从上往下执
 
 ## usage
 
-在项目的根目录运行
+在项目的根目录运行
 
 ```shell
 node example/01_sequence/index.js
 ```
 
-控制台会打印出各 Node 执行时触发的书序
+控制台会打印出各 Node 执行时触发的书序
 
 ```txt
 Program

@@ -11,7 +11,7 @@
 
 ## usage
 
-在项目的根目录运行
+在项目的根目录运行
 
 ```shell
 node example/03_wrap_function/index.js

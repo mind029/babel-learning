@@ -9,24 +9,15 @@
 1. 数据埋点
 2. 性能捕获埋点
 
-## 结果
+## usage
 
-**输入代码**
+在项目的根目录运行
 
-```js
-
-const { after } = require("trackpoint-tools");
-
-const func1 = (name) => {
-  console.log("func1", name);
-};
-
-func1(1);
-
+```shell
+node example/03_wrap_function/index.js
 ```
 
-
-**输出代码**
+输出代码会给输入函数包裹上 after 操作
 
 ```js
 const {
@@ -40,4 +31,17 @@ const func1 = after(name => {
 });
 
 func1(1);
+```
+
+然后执行
+
+```shell
+node example/03_wrap_function/outputCode.js
+```
+
+**结果**
+
+```shell
+func1 1
+seed some  1
 ```

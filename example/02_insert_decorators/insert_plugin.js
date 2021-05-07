@@ -71,7 +71,6 @@ module.exports = function ({ types: t }) {
 
         const currentDecorators = [];
         for (const itemNode of path.node.decorators) {
-          // 首先是 import
           if (t.isDecorator(itemNode)) {
             currentDecorators.push(
               itemNode.expression.name || itemNode.expression.callee.name,

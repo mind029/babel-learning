@@ -21,5 +21,8 @@
     "@babel/core": "^7.14.0",
     "@babel/plugin-syntax-decorators": "^7.12.13",
     "@babel/types": "^7.14.1"
+  },
+  "dependencies": {
+    "trackpoint-tools": "^0.1.0"
   }
 }

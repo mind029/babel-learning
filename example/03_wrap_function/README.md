@@ -38,6 +38,6 @@ const func1 = after(name => {
 })(name => {
   console.log("func1", name);
 });
-func1(1);
 
+func1(1);
 ```

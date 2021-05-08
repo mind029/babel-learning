@@ -29,7 +29,7 @@ const ast = t.program(
   null,
 );
 
-console.log(JSON.stringify(ast, null, 2));
+// console.log(JSON.stringify(ast, null, 2));
 
 console.log(generate(ast).code)
 

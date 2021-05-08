@@ -10,6 +10,7 @@
 - 例子1：[babel visitor 各函数执行顺序](./example/01_sequence/README.md)
 - 例子2：[给类方法插入装饰器](./example/02_insert_decorators/README.md)
 - 例子3：[给函数包裹上 hook 函数](./example/03_wrap_function/README.md)
+- 例子4：[快速生成 babel Node 的 2 种方式](./example/04_create_node/REAME.md)
 
 ### babel 插件知识储备
 

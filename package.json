@@ -19,7 +19,9 @@
   "homepage": "https://github.com/mind029/babel-learning#readme",
   "devDependencies": {
     "@babel/core": "^7.14.0",
+    "@babel/generator": "^7.14.1",
     "@babel/plugin-syntax-decorators": "^7.12.13",
+    "@babel/template": "^7.12.13",
     "@babel/types": "^7.14.1"
   },
   "dependencies": {
